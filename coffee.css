@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: serif;
+    font-style: italic;
+}
+
+.header{
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    color: black;
+}
+
+.header h1{
+    color: white;
+    font-style: italic;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: larger;
+    color: white;
+    font-style: italic;
+}
+
+.btn{
+    background-color:  rgb(1, 71, 163);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.button{
+    display: flex;
+    gap: 15px;
+}
+
+.maina{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.mainb{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom:30px;
+}
+
+.mainc{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.mainc P{
+    color: goldenrod;
+}
+
+/* .mainc h1{
+    color: goldenrod;
+} */
+
+.main5 img{
+    width: 400px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+.main6{
+    width: 500px;
+}
+
+.main6 h1{
+    color: goldenrod;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.main7 img{
+    width: 400px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+.main1{
+    width: 600px;
+    padding-left: 50px;
+}
+
+.main1 h1,p{
+    color: blue;
+    padding-bottom: 20px;
+}
+
+.main2{
+    padding-right: 50px;
+}
+
+.main2 img{
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.main3{
+    padding-left: 50px;
+}
+
+.main3 img{
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.main4{
+    width: 600px;
+    padding-right: 50px;
+}
+
+.main4 h1,p{
+    color: blue;
+    padding-bottom: 20px;
+}
+
+.footer{
+    background-color: blue;
+    height: 50px;
+    text-align: center;
+}
+
+.footer h1{
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
